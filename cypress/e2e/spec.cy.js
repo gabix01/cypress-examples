@@ -8,3 +8,11 @@ beforeEach(() => {
 it('register to application', function () {
   basePage.registerUser();
 });
+
+it('register to application default user', function () {
+  basePage.regiterBaseUser();
+});
+
+it('login to application', function () {
+  basePage.loginUser();
+});
